@@ -1,0 +1,98 @@
+﻿ //Random rnd = new Random();
+            //int sayi = rnd.Next();
+            //int sayi2=rnd.Next(99);
+            //int sayi3=rnd.Next(3,8);
+            //Console.WriteLine(sayi);
+            //Console.WriteLine(sayi2);
+            //Console.WriteLine(sayi3);
+            //C:\Users\ZULALOZCELIK\Desktop\deneme.docx
+            string filepath;
+            filepath = @"C:\Users\ZULALOZCELIK\Desktop\test.docx";
+            //FileStream fileStream= new FileStream(filepath, FileMode.Create);
+            //Console.ReadLine();
+            //FileStream fileStream = new FileStream(filepath, FileMode.OpenOrCreate,FileAccess.Write);
+            //StreamWriter streamWriter = new StreamWriter(fileStream);
+            //streamWriter.WriteLine("Burası 1.satır");
+            //streamWriter.WriteLine("burası 2. satır");
+            //streamWriter.WriteLine("burası 3. satır");
+
+            //streamWriter.Flush();
+            //streamWriter.Close();
+            //fileStream.Close();
+
+
+            //Console.WriteLine("dosya yazdırma işlemi tamamlandı");
+
+            //FileStream fileStream   = new FileStream(filepath, FileMode.Open, FileAccess.Read);
+
+            //StreamReader streamReader = new StreamReader(fileStream);
+            //string content = streamReader.ReadLine();
+            //while (content != null)
+            //{
+            //    Console.WriteLine(content);
+            //    content = streamReader.ReadLine();
+            //}
+            //streamReader.Close();
+            //fileStream.Close();
+                        
+                        
+            //string cumle;
+            //cumle = "bugün c# dersleri devam ediyor";
+            ////Console.WriteLine(cumle.ToLower());
+            ////Console.WriteLine(cumle.ToUpper());
+            ////Console.WriteLine(cumle.StartsWith("bu"));
+            //// Console.WriteLine(cumle.EndsWith("bu"));
+            ////Console.WriteLine(cumle.IndexOf(" "));
+
+            ////Console.WriteLine(cumle.Insert(4,"ders"));
+            ////Console.WriteLine(cumle.Remove(4,8));
+            //// Console.WriteLine(cumle.Substring(9));
+
+            
+            //int sayi = 625;
+            //Console.WriteLine(Math.Sqrt(sayi));
+
+
+            //int sayii = 3;
+            //Console.WriteLine(Math.Pow(sayii,4));
+            
+            //double sayi = 47.85;
+
+              //try
+            //{
+            //    Console.WriteLine("sayı girin");
+            //    int sayi;
+            //    sayi = Convert.ToInt32(Console.ReadLine());
+            //    int sonuc= sayi*sayi;
+            //    Console.WriteLine("Kare:" + sonuc);        
+            //}
+            //catch
+            //{
+            //  Console.WriteLine("bir hata oluştu");
+            //}
+
+                        //try
+            //{
+            //    int sayi;
+            //    Console.Write("sayı giriniz:");
+            //    sayi=Convert.ToInt32(Console.ReadLine());
+            //    Console.WriteLine("sayının 3. kuvveti="+ (sayi*sayi*sayi));
+            //}
+            //catch (ArgumentNullException error1)
+            //{
+
+            //    Console.Write("değer girilmedi");
+            //}
+            //catch (FormatException error2)
+            //{
+            //    Console.Write("hatalı veri formatı girildi");
+            //}
+            //catch (OverflowException error3)
+            //{
+            //    Console.Write("girdiğiniz değer çok büyük yada çok küçük");
+            //}
+            //finally
+            //{
+            //    Console.WriteLine("bu işlem tamamlandı");
+                
+            //}
